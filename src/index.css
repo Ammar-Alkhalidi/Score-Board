@@ -1,0 +1,69 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Scoreboard Container */
+div {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #e0f7f9;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+/* Title Styling */
+h1 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+/* Score Text */
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Highlighted Score */
+h2 span {
+  color: #00bcd4;
+  font-weight: bold;
+}
+
+/* Button Styling */
+button {
+  background-color: white;
+  border: 2px solid #00bcd4;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #00bcd4;
+  color: white;
+}
+
+/* Infoboard Styling */
+h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
